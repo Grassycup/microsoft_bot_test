@@ -1,3 +1,12 @@
+var dotenv = require('dotenv');
+if (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'test') {
+  dotenv.config({path: '.env'});
+} else {
+  dotenv.config({path: '.env.example', silent: true});
+}
+
+
+
 var restify = require('restify');
 var builder = require('botbuilder');
 
