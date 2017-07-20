@@ -1,0 +1,16 @@
+{
+  "name": "microsoftbottest",
+  "version": "0.0.1",
+  "description": "Microsoft Bot Test!",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Grassycup",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.8.4",
+    "restify": "^5.0.1",
+    "dotenv": "^4.0.0"
+  }
+}
